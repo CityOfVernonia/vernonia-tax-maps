@@ -1,0 +1,25 @@
+{
+  "name": "vernonia-tax-maps",
+  "version": "1.0.0",
+  "description": "Vernonia area tax maps.",
+  "main": "index.js",
+  "scripts": {
+    "get-tax-maps": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/COV-GIS/vernonia-tax-maps.git"
+  },
+  "author": "COV-GIS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/COV-GIS/vernonia-tax-maps/issues"
+  },
+  "homepage": "https://github.com/COV-GIS/vernonia-tax-maps#readme",
+  "dependencies": {
+    "download": "~8.0.0",
+    "file-type": "~15.0.0",
+    "chalk": "~4.1.0"
+  }
+}
