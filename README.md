@@ -17,4 +17,4 @@ Copy or link to `tiff` directory and add TIFF file to a map.
 
 ### Last Updated
 
-September 16, 2020
+November 30, 2020
