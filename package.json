@@ -19,7 +19,7 @@
   "homepage": "https://github.com/COV-GIS/vernonia-tax-maps#readme",
   "dependencies": {
     "download": "~8.0.0",
-    "file-type": "~15.0.1",
+    "file-type": "~16.2.0",
     "chalk": "~4.1.0"
   }
 }
