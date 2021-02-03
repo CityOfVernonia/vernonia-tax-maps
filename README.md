@@ -1,20 +1,37 @@
 # vernonia-tax-maps
 
-Vernonia area tax maps within the [Vernonia Spatial Extent](https://gisportal.vernonia-or.gov/portal/home/item.html?id=ba46e08ba03146028ba3005650ee28f0).
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/CityOfVernonia/vernonia-tax-maps?color=success&style=flat-square)
 
-Tax maps within and adjacent to [Vernonia City Limits](https://gisportal.vernonia-or.gov/portal/home/item.html?id=eb0c7507611e44b7923dd1c0167e3b92) are georeferenced, i.e. have an accompanying `*.tiff.aux.xml` file.
+A tool for downloading Columbia County tax maps within and adjacent to [Vernonia City Limits](https://gisportal.vernonia-or.gov/portal/home/item.html?id=eb0c7507611e44b7923dd1c0167e3b92).
 
-### How To
+Files are included as TIFFs and PDFs. TIFFs are georeferenced via the accompanying `*.tiff.aux.xml` file in SR NAD 1983 (2011) Oregon Statewide Lambert (Intl Feet) _wkid 6557_.
 
-1. Clone
-1. Install [GhostScript](https://ghostscript.com/download.html)
-1. `npm install`
-1. `npm run get-tax-maps`
+Tax maps can be viewed over imagery in the interactive [Tax Map Viewer](https://vernonia-tax-map-viewer.netlify.app/) app. The source code for the app is available at [CityOfVernonia/vernonia-tax-maps](https://github.com/CityOfVernonia/vernonia-tax-maps)
+
+### Install
+
+1. Clone this repository.
+1. Run `npm install` to install dependencies.
+1. Run `npm run exec` to download and process tax map files.
+
+Prerequisite: [GhostScript](https://ghostscript.com/download.html) installed with `gswin64c` available to execute via command line.
 
 ### Use in ArcGIS Pro
 
-Copy or link to `tiff` directory and add TIFF file to a map.
+Copy or add to `tax-maps/tiff` directory to a Pro project and add TIFF files to a map.
 
-### Last Updated
+### Tax Map Boundaries
 
-January 5, 2021
+The boundaries are included in the zipped FGDB `TaxMapBoundaries.gdb.zip`.
+
+### Updates and Versioning
+
+Updates are generally performed Monday morning. Versions are in the form of `vYYYY.MM.DD`, i.e. `v2021.02.03`.
+
+### Big Fat To Do
+
+Reproject boundaries and TIFF georeferencing to WGS84 and include GeoTIFF files in this project.
+
+***
+
+Made with :heart: and :coffee: in Vernonia, Oregon

@@ -1,10 +1,10 @@
 {
   "name": "vernonia-tax-maps",
-  "version": "1.0.0",
+  "version": "2021.02.03",
   "description": "Vernonia area tax maps.",
   "main": "index.js",
   "scripts": {
-    "get-tax-maps": "node index.js",
+    "exec": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
