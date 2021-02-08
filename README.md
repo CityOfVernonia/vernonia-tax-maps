@@ -4,7 +4,7 @@
 
 A tool for downloading Columbia County tax maps within and adjacent to [Vernonia City Limits](https://gisportal.vernonia-or.gov/portal/home/item.html?id=eb0c7507611e44b7923dd1c0167e3b92).
 
-Files are included as TIFFs and PDFs. TIFFs are georeferenced via the accompanying `*.tiff.aux.xml` file in SR NAD 1983 (2011) Oregon Statewide Lambert (Intl Feet) _wkid 6557_.
+Files are included as TIFFs and PDFs. TIFFs are georeferenced via the accompanying `*.tiff.aux.xml` file in spatial reference NAD 1983 (2011) Oregon Statewide Lambert (Intl Feet) _WKID 6557_.
 
 Tax maps can be viewed over imagery in the interactive [Tax Map Viewer](https://vernonia-tax-map-viewer.netlify.app/) app. The source code for the app is available at [CityOfVernonia/vernonia-tax-maps](https://github.com/CityOfVernonia/vernonia-tax-maps)
 
@@ -26,7 +26,7 @@ The boundaries are included in the zipped FGDB `TaxMapBoundaries.gdb.zip`.
 
 ### Updates and Versioning
 
-Updates are generally performed Monday morning. Versions are in the form of `vYYYY.MM.DD`, i.e. `v2021.02.03`.
+Updates are generally performed Monday morning. Versioning is Year-Mount-Day, i.e. `v2021.02.03`.
 
 ### Big Fat To Do
 
