@@ -1,10 +1,6 @@
 <PAMDataset>
-  <SRS>PROJCS["NAD_1983_2011_Oregon_Statewide_Lambert_Ft_Intl",GEOGCS["GCS_NAD_1983_2011",DATUM["NAD_1983_2011",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic_2SP"],PARAMETER["False_Easting",1312335.958005249],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-120.5],PARAMETER["Standard_Parallel_1",43.0],PARAMETER["Standard_Parallel_2",45.5],PARAMETER["Latitude_Of_Origin",41.75],UNIT["Foot",0.3048],AUTHORITY["EPSG","6557"]]</SRS>
-  <Metadata domain="Esri">
-    <MDI key="PyramidResamplingType">NEAREST</MDI>
-  </Metadata>
   <Metadata domain="xml:ESRI" format="xml">
-    <GeodataXform xsi:type="typens:PolynomialXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/2.5.0">
+    <GeodataXform xsi:type="typens:PolynomialXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/2.7.0">
       <PolynomialOrder>1</PolynomialOrder>
       <SpatialReference xsi:type="typens:ProjectedCoordinateSystem">
         <WKT>PROJCS["NAD_1983_2011_Oregon_Statewide_Lambert_Ft_Intl",GEOGCS["GCS_NAD_1983_2011",DATUM["D_NAD_1983_2011",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic"],PARAMETER["False_Easting",1312335.958005249],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-120.5],PARAMETER["Standard_Parallel_1",43.0],PARAMETER["Standard_Parallel_2",45.5],PARAMETER["Latitude_Of_Origin",41.75],UNIT["Foot",0.3048],AUTHORITY["EPSG",6557]]</WKT>
@@ -23,38 +19,26 @@
         <LatestWKID>6557</LatestWKID>
       </SpatialReference>
       <SourceGCPs xsi:type="typens:ArrayOfDouble">
-        <Double>3.011626833432274</Double>
-        <Double>15.578722167378601</Double>
-        <Double>2.6418871649875655</Double>
-        <Double>2.5112584475373296</Double>
-        <Double>19.133579065527016</Double>
-        <Double>2.4522775973086937</Double>
-        <Double>16.095258096293577</Double>
-        <Double>15.808550366449253</Double>
+        <Double>4.0532246817404927</Double>
+        <Double>15.64509737050593</Double>
+        <Double>17.136554085016453</Double>
+        <Double>15.421529892945017</Double>
+        <Double>18.376436916825973</Double>
+        <Double>2.0004863129815931</Double>
+        <Double>3.2264511332072265</Double>
+        <Double>2.594912426288829</Double>
       </SourceGCPs>
       <TargetGCPs xsi:type="typens:ArrayOfDouble">
         <Double>620627.65449459851</Double>
-        <Double>1517476.6472188386</Double>
-        <Double>620299.80147668719</Double>
-        <Double>1512255.6584304124</Double>
-        <Double>626893.66538619995</Double>
-        <Double>1512004.9538607597</Double>
-        <Double>625862.78077849734</Double>
-        <Double>1517390.1952742788</Double>
+        <Double>1517476.6472188383</Double>
+        <Double>625862.78077849746</Double>
+        <Double>1517390.1952742785</Double>
+        <Double>626363.98880191159</Double>
+        <Double>1512022.2248926761</Double>
+        <Double>620299.80147668731</Double>
+        <Double>1512255.6584304126</Double>
       </TargetGCPs>
       <Name />
     </GeodataXform>
   </Metadata>
-  <PAMRasterBand band="1">
-    <Histograms>
-      <HistItem>
-        <HistMin>-0.5</HistMin>
-        <HistMax>255.5</HistMax>
-        <BucketCount>256</BucketCount>
-        <IncludeOutOfRange>1</IncludeOutOfRange>
-        <Approximate>0</Approximate>
-        <HistCounts>436344|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|36615|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|375176|0|15|0|0|0|0|0|0|0|0|0|11303|0|0|0|0|0|0|0|11071|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|9|0|31926|0|0|0|0|0|8170|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|12|0|0|0|0|0|0|0|0|0|0|0|49937|0|0|0|0|0|0|0|0|0|0|0|0|0|12|0|0|0|0|0|0|0|26690|0|0|0|6|0|0|0|0|0|0|8|0|0|0|0|0|0|0|32862|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|6|0|0|0|0|0|12928642|0|0|0|0|150148|0|0|0|0|0|0|0|0|0|0|0|0|0|0|30385|0|101982|0|0|0|0|0|0|0|18132077</HistCounts>
-      </HistItem>
-    </Histograms>
-  </PAMRasterBand>
 </PAMDataset>
