@@ -1,6 +1,7 @@
 <PAMDataset>
+  <SRS>PROJCS["NAD_1983_2011_Oregon_Statewide_Lambert_Ft_Intl",GEOGCS["GCS_NAD_1983_2011",DATUM["NAD_1983_2011",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic_2SP"],PARAMETER["False_Easting",1312335.958005249],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-120.5],PARAMETER["Standard_Parallel_1",43.0],PARAMETER["Standard_Parallel_2",45.5],PARAMETER["Latitude_Of_Origin",41.75],UNIT["Foot",0.3048],AUTHORITY["EPSG","6557"]]</SRS>
   <Metadata domain="xml:ESRI" format="xml">
-    <GeodataXform xsi:type="typens:PolynomialXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/10.6">
+    <GeodataXform xsi:type="typens:PolynomialXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/2.7.0">
       <PolynomialOrder>1</PolynomialOrder>
       <SpatialReference xsi:type="typens:ProjectedCoordinateSystem">
         <WKT>PROJCS["NAD_1983_2011_Oregon_Statewide_Lambert_Ft_Intl",GEOGCS["GCS_NAD_1983_2011",DATUM["D_NAD_1983_2011",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic"],PARAMETER["False_Easting",1312335.958005249],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-120.5],PARAMETER["Standard_Parallel_1",43.0],PARAMETER["Standard_Parallel_2",45.5],PARAMETER["Latitude_Of_Origin",41.75],UNIT["Foot",0.3048],AUTHORITY["EPSG",6557]]</WKT>
@@ -19,24 +20,24 @@
         <LatestWKID>6557</LatestWKID>
       </SpatialReference>
       <SourceGCPs xsi:type="typens:ArrayOfDouble">
-        <Double>17.508585567008595</Double>
-        <Double>14.347282474227541</Double>
-        <Double>2.455667161852034</Double>
-        <Double>16.030357468378497</Double>
-        <Double>1.7213629129352839</Double>
-        <Double>2.3556113109716534</Double>
-        <Double>15.099538016068454</Double>
-        <Double>2.116582028396806</Double>
+        <Double>2.5354951230895022</Double>
+        <Double>16.03180521190734</Double>
+        <Double>17.58990672495662</Double>
+        <Double>14.346144118719167</Double>
+        <Double>15.178445452688507</Double>
+        <Double>2.1222745389968622</Double>
+        <Double>1.804054777001511</Double>
+        <Double>2.3631295003378909</Double>
       </SourceGCPs>
       <TargetGCPs xsi:type="typens:ArrayOfDouble">
-        <Double>625633.38910761476</Double>
-        <Double>1509011.6354986876</Double>
-        <Double>624127.59908136725</Double>
-        <Double>1509179.0711942317</Double>
-        <Double>624054.76312336326</Double>
-        <Double>1507811.9652231038</Double>
-        <Double>625392.96686351299</Double>
-        <Double>1507788.7995406836</Double>
+        <Double>624127.59915852547</Double>
+        <Double>1509179.0712404847</Double>
+        <Double>625633.38924358774</Double>
+        <Double>1509011.6355381606</Double>
+        <Double>625392.96684673429</Double>
+        <Double>1507788.7994310709</Double>
+        <Double>624054.7630548476</Double>
+        <Double>1507811.9651598181</Double>
       </TargetGCPs>
       <Name />
     </GeodataXform>
