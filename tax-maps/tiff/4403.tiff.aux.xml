@@ -4,7 +4,7 @@
     <MDI key="PyramidResamplingType">NEAREST</MDI>
   </Metadata>
   <Metadata domain="xml:ESRI" format="xml">
-    <GeodataXform xsi:type="typens:PolynomialXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/2.7.0">
+    <GeodataXform xsi:type="typens:PolynomialXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/2.8.0">
       <PolynomialOrder>1</PolynomialOrder>
       <SpatialReference xsi:type="typens:ProjectedCoordinateSystem">
         <WKT>PROJCS["NAD_1983_2011_Oregon_Statewide_Lambert_Ft_Intl",GEOGCS["GCS_NAD_1983_2011",DATUM["D_NAD_1983_2011",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic"],PARAMETER["False_Easting",1312335.958005249],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-120.5],PARAMETER["Standard_Parallel_1",43.0],PARAMETER["Standard_Parallel_2",45.5],PARAMETER["Latitude_Of_Origin",41.75],UNIT["Foot",0.3048],AUTHORITY["EPSG",6557]]</WKT>
@@ -23,14 +23,18 @@
         <LatestWKID>6557</LatestWKID>
       </SpatialReference>
       <SourceGCPs xsi:type="typens:ArrayOfDouble">
-        <Double>16.583301089615802</Double>
-        <Double>0.39826416235791839</Double>
-        <Double>17.300692090780785</Double>
-        <Double>16.285314347011536</Double>
-        <Double>3.6068845573057846</Double>
-        <Double>1.5851041683613403</Double>
-        <Double>4.0681024784110189</Double>
-        <Double>15.447065177310378</Double>
+        <Double>16.003273954722772</Double>
+        <Double>0.63205331346944149</Double>
+        <Double>16.711777884308077</Double>
+        <Double>16.359192686395545</Double>
+        <Double>3.163146810021189</Double>
+        <Double>1.8083613362609867</Double>
+        <Double>3.6168474157483672</Double>
+        <Double>15.530543575295269</Double>
+        <Double>8.3940191805691118</Double>
+        <Double>16.700498478159716</Double>
+        <Double>3.2241326298176083</Double>
+        <Double>10.549609354405675</Double>
       </SourceGCPs>
       <TargetGCPs xsi:type="typens:ArrayOfDouble">
         <Double>635883.59383201599</Double>
@@ -41,6 +45,10 @@
         <Double>1505753.6568241415</Double>
         <Double>630873.10334645212</Double>
         <Double>1511302.1312336028</Double>
+        <Double>632803.4370482564</Double>
+        <Double>1511774.8405396342</Double>
+        <Double>630714.34691207111</Double>
+        <Double>1509288.6498717221</Double>
       </TargetGCPs>
       <Name />
     </GeodataXform>
