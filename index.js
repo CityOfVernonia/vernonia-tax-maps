@@ -1,11 +1,10 @@
 const fs = require('fs');
 const { execFileSync } = require('child_process');
 const download = require('download');
-const FileType = require('file-type');
 const chalk = require('chalk');
 
 // tax map url
-const taxMapUrl = 'http://65.122.151.216/geomoose2/taxlots_map_images/';
+const taxMapUrl = 'https://gis.columbiacountymaps.com/TaxMaps/';
 
 // array of tax maps
 let taxMaps;
@@ -20,7 +19,7 @@ const pdf2tiff = async taxMap => {
     `tax-maps/pdf/${taxMap}.pdf`
   ]);
   console.log(
-    chalk.green(`${taxMap}.tiff successfully converted to ${taxMap}.pdf.`)
+    chalk.green(`${taxMap}.pdf successfully converted to ${taxMap}.tiff.`)
   );
 };
 
@@ -41,52 +40,26 @@ fs.readFile('tax-maps/tax_maps.txt', 'utf-8', (readError, readData) => {
   // download tax maps and write to `pdf` or `tiff` directory based on file type
   taxMaps.forEach(taxMap => {
     // download file
-    download(`${taxMapUrl}${taxMap}`)
+    download(`${taxMapUrl}${taxMap}.pdf`)
       .then(async downloadData => {
+        // write pdf
+        fs.writeFile(`tax-maps/pdf/${taxMap}.pdf`, downloadData, pdfWriteError => {
 
-        // get file type from buffer
-        const type = await (await FileType.fromBuffer(downloadData)).ext;
-
-        // handle file by type
-        if (type === 'tif' || type === 'tiff') {
-          fs.writeFile(`tax-maps/tiff/${taxMap}.tiff`, downloadData, tiffWriteError => {
-
-            // handle write error
-            if (tiffWriteError) {
-              console.log(
-                chalk.red(`Failed to write ${taxMap}.tiff.`),
-                tiffWriteError
-              );
-              return;
-            }
+          // handle write error
+          if (pdfWriteError) {
             console.log(
-              chalk.green(`${taxMap}.tiff successfully written.`)
+              chalk.red(`Failed to write ${taxMap}.pdf.`),
+              pdfWriteError
             );
-
-          });
-        } else if (type === 'pdf') {
-          fs.writeFile(`tax-maps/pdf/${taxMap}.pdf`, downloadData, pdfWriteError => {
-
-            // handle write error
-            if (pdfWriteError) {
-              console.log(
-                chalk.red(`Failed to write ${taxMap}.pdf.`),
-                pdfWriteError
-              );
-              return;
-            }
-            console.log(
-              chalk.green(`${taxMap}.pdf successfully written.`)
-            );
-
-            // convert
-            pdf2tiff(taxMap);
-          });
-        } else {
+            return;
+          }
           console.log(
-            chalk.red(`Tax map ${taxMap} has a file type of ${type}`)
+            chalk.green(`${taxMap}.pdf successfully written.`)
           );
-        }
+
+          // convert to tiff
+          pdf2tiff(taxMap);
+        });
       })
       .catch(downloadError => {
         // handle download error
