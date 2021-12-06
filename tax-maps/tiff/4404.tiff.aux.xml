@@ -4,7 +4,7 @@
     <MDI key="PyramidResamplingType">NEAREST</MDI>
   </Metadata>
   <Metadata domain="xml:ESRI" format="xml">
-    <GeodataXform xsi:type="typens:PolynomialXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/10.6">
+    <GeodataXform xsi:type="typens:PolynomialXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/2.8.0">
       <PolynomialOrder>1</PolynomialOrder>
       <SpatialReference xsi:type="typens:ProjectedCoordinateSystem">
         <WKT>PROJCS["NAD_1983_2011_Oregon_Statewide_Lambert_Ft_Intl",GEOGCS["GCS_NAD_1983_2011",DATUM["D_NAD_1983_2011",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic"],PARAMETER["False_Easting",1312335.958005249],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-120.5],PARAMETER["Standard_Parallel_1",43.0],PARAMETER["Standard_Parallel_2",45.5],PARAMETER["Latitude_Of_Origin",41.75],UNIT["Foot",0.3048],AUTHORITY["EPSG",6557]]</WKT>
@@ -23,10 +23,10 @@
         <LatestWKID>6557</LatestWKID>
       </SpatialReference>
       <SourceGCPs xsi:type="typens:ArrayOfDouble">
-        <Double>2.1982834778348206</Double>
-        <Double>2.7951679531638547</Double>
-        <Double>15.614931013213891</Double>
-        <Double>1.0817749018247014</Double>
+        <Double>2.1965258061275685</Double>
+        <Double>2.8016137491395057</Double>
+        <Double>15.613529783870458</Double>
+        <Double>1.0884871764774289</Double>
         <Double>12.575086224663737</Double>
         <Double>16.483014251378791</Double>
         <Double>15.513693725927741</Double>

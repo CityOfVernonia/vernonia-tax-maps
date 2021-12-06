@@ -23,14 +23,14 @@
         <LatestWKID>6557</LatestWKID>
       </SpatialReference>
       <SourceGCPs xsi:type="typens:ArrayOfDouble">
-        <Double>3.4613510036108099</Double>
-        <Double>1.8065188665714231</Double>
-        <Double>15.843929069183757</Double>
-        <Double>0.69115407754361513</Double>
-        <Double>16.537412909023324</Double>
-        <Double>16.879102302651518</Double>
-        <Double>3.9723880851391788</Double>
-        <Double>17.380248677918644</Double>
+        <Double>3.4608108465954857</Double>
+        <Double>1.6393724828885752</Double>
+        <Double>15.846000685154102</Double>
+        <Double>0.52233154385976377</Double>
+        <Double>16.538819724767798</Double>
+        <Double>16.711872895637498</Double>
+        <Double>3.9687266693491319</Double>
+        <Double>17.213217090398757</Double>
       </SourceGCPs>
       <TargetGCPs xsi:type="typens:ArrayOfDouble">
         <Double>628111.86187663663</Double>
