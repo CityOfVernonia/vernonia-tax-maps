@@ -1,10 +1,10 @@
 <PAMDataset>
-  <SRS>PROJCS["NAD_1983_2011_Oregon_Statewide_Lambert_Ft_Intl",GEOGCS["GCS_NAD_1983_2011",DATUM["NAD_1983_2011",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic_2SP"],PARAMETER["False_Easting",1312335.958005249],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-120.5],PARAMETER["Standard_Parallel_1",43.0],PARAMETER["Standard_Parallel_2",45.5],PARAMETER["Latitude_Of_Origin",41.75],UNIT["Foot",0.3048],AUTHORITY["EPSG","6557"]]</SRS>
+  <SRS dataAxisToSRSAxisMapping="2,1,3">PROJCS["NAD_1983_2011_Oregon_Statewide_Lambert_Ft_Intl",GEOGCS["GCS_NAD_1983_2011",DATUM["NAD_1983_2011",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic_2SP"],PARAMETER["False_Easting",1312335.958005249],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-120.5],PARAMETER["Standard_Parallel_1",43.0],PARAMETER["Standard_Parallel_2",45.5],PARAMETER["Latitude_Of_Origin",41.75],UNIT["Foot",0.3048],AUTHORITY["EPSG","6557"]]</SRS>
   <Metadata domain="Esri">
     <MDI key="PyramidResamplingType">NEAREST</MDI>
   </Metadata>
   <Metadata domain="xml:ESRI" format="xml">
-    <GeodataXform xsi:type="typens:PolynomialXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/2.4.0">
+    <GeodataXform xsi:type="typens:PolynomialXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/2.9.0">
       <PolynomialOrder>1</PolynomialOrder>
       <SpatialReference xsi:type="typens:ProjectedCoordinateSystem">
         <WKT>PROJCS["NAD_1983_2011_Oregon_Statewide_Lambert_Ft_Intl",GEOGCS["GCS_NAD_1983_2011",DATUM["D_NAD_1983_2011",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic"],PARAMETER["False_Easting",1312335.958005249],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-120.5],PARAMETER["Standard_Parallel_1",43.0],PARAMETER["Standard_Parallel_2",45.5],PARAMETER["Latitude_Of_Origin",41.75],UNIT["Foot",0.3048],AUTHORITY["EPSG",6557]]</WKT>
@@ -23,14 +23,14 @@
         <LatestWKID>6557</LatestWKID>
       </SpatialReference>
       <SourceGCPs xsi:type="typens:ArrayOfDouble">
-        <Double>0.84297593809060345</Double>
-        <Double>13.437834624888637</Double>
-        <Double>18.600287404597111</Double>
-        <Double>13.591842152080062</Double>
-        <Double>18.619359157298277</Double>
-        <Double>6.254235234711814</Double>
-        <Double>7.9854010139852107</Double>
-        <Double>5.0333541661675554</Double>
+        <Double>0.70244562104275587</Double>
+        <Double>13.695201220631134</Double>
+        <Double>18.460349901704472</Double>
+        <Double>13.84940704598921</Double>
+        <Double>18.475548275330908</Double>
+        <Double>6.5113280171608494</Double>
+        <Double>7.8437051083810729</Double>
+        <Double>5.2876657760934904</Double>
       </SourceGCPs>
       <TargetGCPs xsi:type="typens:ArrayOfDouble">
         <Double>631484.92257218063</Double>
@@ -45,4 +45,70 @@
       <Name />
     </GeodataXform>
   </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.5</HistMin>
+        <HistMax>255.5</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>1966668|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1426924|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1237283|0|28|0|0|0|0|0|0|0|0|0|51751|0|0|0|0|0|0|0|51436|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|45|0|57526|0|0|0|0|0|29431|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|54|0|0|0|0|0|0|0|0|0|0|0|60970|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|40|0|0|0|0|0|0|0|0|0|0|0|0|0|0|339701|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|57|0|0|0|0|0|73432446|0|0|0|0|609707|0|0|0|0|0|0|0|0|0|0|0|0|0|0|37805|0|305737|0|0|0|0|0|0|0|49992391</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_COVARIANCES">1854.409829142909,1322.771598872591,1387.029649652477</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">229.09408577937</MDI>
+      <MDI key="STATISTICS_MEDIAN">225.000000</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">43.062859045155</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.5</HistMin>
+        <HistMax>255.5</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>2590675|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|45|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|168583|0|51751|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|35|0|57526|0|0|0|0|0|29431|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|44|0|0|0|0|0|0|0|409631|0|0|0|60970|0|0|0|0|0|0|0|305737|0|0|0|2664207|0|0|0|0|0|0|0|0|0|0|0|0|0|31|0|0|0|0|0|37805|0|0|0|0|0|0|0|0|0|42412|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|63|0|0|0|0|0|73432446|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|49748608</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_COVARIANCES">1322.771598872591,1473.37418522648,1408.950557414319</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">230.08892338735</MDI>
+      <MDI key="STATISTICS_MEDIAN">225.000000</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">38.384556598018</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.5</HistMin>
+        <HistMax>255.5</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>4152185|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|51|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|37805|0|0|0|0|0|0|0|0|0|42412|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|41|0|57526|0|0|0|0|0|29431|0|0|0|0|51436|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|51751|0|0|0|0|0|0|26|0|0|0|0|0|0|0|0|0|0|0|60970|0|0|0|0|0|0|0|0|0|0|0|168583|0|0|0|0|0|0|0|0|0|0|0|0|0|53|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|60|0|0|0|0|0|73432446|0|0|0|0|0|0|1426924|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|50088300</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_COVARIANCES">1387.029649652477,1408.950557414319,1990.304659461873</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">229.10799141969</MDI>
+      <MDI key="STATISTICS_MEDIAN">225.000000</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">44.612830659597</MDI>
+    </Metadata>
+  </PAMRasterBand>
 </PAMDataset>

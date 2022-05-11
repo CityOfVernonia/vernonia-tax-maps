@@ -1,6 +1,6 @@
 {
   "name": "vernonia-tax-maps",
-  "version": "2021.12.06",
+  "version": "2022.05.11",
   "description": "Vernonia area tax maps.",
   "main": "index.js",
   "scripts": {
