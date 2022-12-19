@@ -10,16 +10,22 @@ const taxMapUrl = 'https://gis.columbiacountymaps.com/TaxMaps/';
 let taxMaps;
 
 // convert pdf to tiff into `tiff` directory
-const pdf2tiff = async taxMap => {
-  await execFileSync(`gswin64c`, [
+const pdf2Images = taxMap => {
+  execFileSync(`gswin64c`, [
     `-sOutputFile=tax-maps/tiff/${taxMap}.tiff`,
     `-sDEVICE=tiff24nc`,
     `-sCompression=lzw`,
     `-r600`,
     `tax-maps/pdf/${taxMap}.pdf`
   ]);
+  execFileSync(`gswin64c`, [
+    `-sOutputFile=tax-maps/jpg/${taxMap}.jpg`,
+    `-sDEVICE=jpeg`,
+    `-r600`,
+    `tax-maps/pdf/${taxMap}.pdf`
+  ]);
   console.log(
-    chalk.green(`${taxMap}.pdf successfully converted to ${taxMap}.tiff.`)
+    chalk.green(`${taxMap}.pdf successfully converted.`)
   );
 };
 
@@ -37,7 +43,7 @@ fs.readFile('tax-maps/tax_maps.txt', 'utf-8', (readError, readData) => {
   // array of tax maps
   taxMaps = readData.split('\r\n');
 
-  // download tax maps and write to `pdf` or `tiff` directory based on file type
+  // download tax maps and write to `pdf`, `tiff` or `jpg` directory based on file type
   taxMaps.forEach(taxMap => {
     // download file
     download(`${taxMapUrl}${taxMap}.pdf`)
@@ -53,12 +59,9 @@ fs.readFile('tax-maps/tax_maps.txt', 'utf-8', (readError, readData) => {
             );
             return;
           }
-          console.log(
-            chalk.green(`${taxMap}.pdf successfully written.`)
-          );
 
-          // convert to tiff
-          pdf2tiff(taxMap);
+          // convert to tiff and jpg
+          pdf2Images(taxMap);
         });
       })
       .catch(downloadError => {
