@@ -18,9 +18,19 @@ const pdf2Images = taxMap => {
     `-r600`,
     `tax-maps/pdf/${taxMap}.pdf`
   ]);
+
+  // convert pdf to jpg into `jpg` directory
   execFileSync(`gswin64c`, [
     `-sOutputFile=tax-maps/jpg/${taxMap}.jpg`,
     `-sDEVICE=jpeg`,
+    `-r600`,
+    `tax-maps/pdf/${taxMap}.pdf`
+  ]);
+
+  // convert pdf to png into `png` directory
+  execFileSync(`gswin64c`, [
+    `-sOutputFile=tax-maps/png/${taxMap}.png`,
+    `-sDEVICE=pngalpha`,
     `-r600`,
     `tax-maps/pdf/${taxMap}.pdf`
   ]);
