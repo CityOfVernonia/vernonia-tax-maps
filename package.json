@@ -2,6 +2,7 @@
   "name": "vernonia-tax-maps",
   "version": "2022.07.05",
   "description": "Vernonia area tax maps.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "exec": "node index.js",
@@ -19,6 +20,14 @@
   "homepage": "https://github.com/COV-GIS/vernonia-tax-maps#readme",
   "dependencies": {
     "download": "~8.0.0",
-    "chalk": "~4.1.2"
+    "chalk": "~5.2.0"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 120,
+    "tabWidth": 2,
+    "endOfLine": "auto"
   }
 }

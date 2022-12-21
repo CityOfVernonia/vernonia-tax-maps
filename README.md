@@ -4,7 +4,7 @@
 
 A tool for downloading Columbia County tax maps within and adjacent to [Vernonia City Limits](https://gisportal.vernonia-or.gov/portal/home/item.html?id=eb0c7507611e44b7923dd1c0167e3b92).
 
-Files are included as TIFFs and PDFs. TIFFs are georeferenced via the accompanying `*.tiff.aux.xml` file in spatial reference NAD 1983 (2011) Oregon Statewide Lambert (Intl Feet) _WKID 6557_.
+Files are included as TIFFs, JPEGs and PDFs. TIFFs and JPEGs are georeferenced via the accompanying `*.aux.xml` file in spatial reference NAD 1983 (2011) Oregon Statewide Lambert (Intl Feet) _WKID 6557_.
 
 Tax maps can be viewed over imagery in the interactive [Tax Map Viewer](https://vernonia-tax-map-viewer.netlify.app/) app. The source code for the app is available at [CityOfVernonia/vernonia-tax-maps](https://github.com/CityOfVernonia/vernonia-tax-maps)
 
@@ -18,19 +18,15 @@ Prerequisite: [GhostScript](https://ghostscript.com/download.html) installed wit
 
 ### Use in ArcGIS Pro
 
-Copy or add to `tax-maps/tiff` directory to a Pro project and add TIFF files to a map.
+Copy or add `tax-maps/tiff` or `tax-maps/jpg` directory to a Pro project and add images to a map.
 
 ### Tax Map Boundaries
 
-The boundaries are included in the zipped FGDB `TaxMapBoundaries.gdb.zip`.
+The boundaries are included in the zipped FGDB `TaxMapBoundaries.gdb.zip` or `TaxMapBoundaries.geojson`.
 
 ### Updates and Versioning
 
-Updates are generally performed Monday morning. Versioning is Year-Mount-Day, i.e. `v2021.02.03`.
-
-### Big Fat To Do
-
-Reproject boundaries and TIFF georeferencing to WGS84 and include GeoTIFF files in this project.
+Updates are generally performed Monday morning (if I remember) and only if any tax map has been updated. Versioning is Year-Mount-Day, i.e. `v2021.02.03`.
 
 ***
 
