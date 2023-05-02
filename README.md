@@ -10,7 +10,7 @@ Files are included as JPEGs and PDFs. JPEGs are georeferenced via the accompanyi
 
 Georeferenced tax maps can be viewed overlaid imagery and and other layers in [Vernonia Map](https://map.vernonia-or.gov/) using the Tax Maps widget.
 
-![Tax Maps widget!](/screenshot.jpg "Tax Maps widget")
+![Tax Maps widget!](screenshot.jpg "Tax Maps widget")
 
 ## Files
 
