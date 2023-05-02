@@ -24,24 +24,24 @@
         <LatestWKID>6557</LatestWKID>
       </SpatialReference>
       <SourceGCPs xsi:type="typens:ArrayOfDouble">
-        <Double>5836.6856042748996</Double>
-        <Double>-9402.831375945012</Double>
-        <Double>1621.7303810253507</Double>
-        <Double>-9452.9229078937788</Double>
-        <Double>5989.0935781951339</Double>
-        <Double>-941.80766163021326</Double>
-        <Double>3765.4643839175187</Double>
-        <Double>-852.52188516035676</Double>
+        <Double>6545.7460634119188</Double>
+        <Double>-1517.6525815195782</Double>
+        <Double>1852.0108192051132</Double>
+        <Double>-10015.530732705658</Double>
+        <Double>6067.463667106178</Double>
+        <Double>-9967.4483555369079</Double>
+        <Double>3396.0821813246757</Double>
+        <Double>-1389.1101941782981</Double>
       </SourceGCPs>
       <TargetGCPs xsi:type="typens:ArrayOfDouble">
-        <Double>632722.61742189934</Double>
-        <Double>1510336.1814918106</Double>
+        <Double>632801.74117425887</Double>
+        <Double>1511744.7473896814</Double>
         <Double>632019.72215885064</Double>
         <Double>1510327.7185909129</Double>
-        <Double>632747.1073303544</Double>
-        <Double>1511746.942172352</Double>
-        <Double>632376.41835835972</Double>
-        <Double>1511761.8280766914</Double>
+        <Double>632722.61742189922</Double>
+        <Double>1510336.1814918108</Double>
+        <Double>632276.50783088338</Double>
+        <Double>1511765.8412486275</Double>
       </TargetGCPs>
       <Name />
     </GeodataXform>
