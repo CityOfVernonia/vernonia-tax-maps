@@ -8,7 +8,7 @@ A tool for downloading Columbia County tax maps within and adjacent to Vernonia 
 
 Files are included as JPEGs and PDFs. JPEGs are georeferenced via the accompanying `*.aux.xml` file in spatial reference NAD 1983 (2011) Oregon Statewide Lambert (Intl Feet) _WKID 6557_.
 
-Georeferenced tax maps can be viewed overlaid with imagery and and other layers in [Vernonia Map](https://map.vernonia-or.gov/) using the Tax Maps widget.
+Georeferenced tax maps can be viewed overlaid with imagery and and other layers in [Vernonia Map](https://map.vernonia-or.gov/) using the Tax Maps widget or with [Tax Map Viewer](https://vernonia-tax-map-viewer.netlify.app/).
 
 ![Tax Maps widget](screenshot.jpg "Tax Maps widget")
 
