@@ -16,8 +16,6 @@ Georeferenced tax maps can be viewed overlaid with imagery and and other layers 
 
 ### Boundaries
 
-[TaxMapBoundaries.gdb.zip](/TaxMapBoundaries.gdb.zip)
-
 [TaxMapBoundaries.geojson](/TaxMapBoundaries.geojson)
 
 ### PDFs and JPEGs
@@ -47,6 +45,11 @@ Georeferenced tax maps can be viewed overlaid with imagery and and other layers 
 | 4405AD | [4405AD.pdf](/tax-maps/pdf/4405AD.pdf) | [4405AD.jpg](/tax-maps/jpg/4405AD.jpg) | [4405AD.jpg.aux.xml](/tax-maps/jpg/4405AD.jpg.aux.xml) | n/a |
 | 4405DA | [4405DA.pdf](/tax-maps/pdf/4405DA.pdf) | [4405DA.jpg](/tax-maps/jpg/4405DA.jpg) | [4405DA.jpg.aux.xml](/tax-maps/jpg/4405DA.jpg.aux.xml) | n/a |
 | 4405DD | [4405DD.pdf](/tax-maps/pdf/4405DD.pdf) | [4405DD.jpg](/tax-maps/jpg/4405DD.jpg) | [4405DD.jpg.aux.xml](/tax-maps/jpg/4405DD.jpg.aux.xml) | n/a |
+| 4406 | [4406.pdf](/tax-maps/pdf/4406.pdf) | [4406.jpg](/tax-maps/jpg/4406.jpg) | [4406.jpg.aux.xml](/tax-maps/jpg/4406.jpg.aux.xml) | 2023.05.05 |
+| 4407 | [4407.pdf](/tax-maps/pdf/4407.pdf) | [4407.jpg](/tax-maps/jpg/4407.jpg) | [4407.jpg.aux.xml](/tax-maps/jpg/4407.jpg.aux.xml) | 2023.05.05 |
+| 4408 | [4408.pdf](/tax-maps/pdf/4408.pdf) | [4408.jpg](/tax-maps/jpg/4408.jpg) | [4408.jpg.aux.xml](/tax-maps/jpg/4408.jpg.aux.xml) | 2023.05.05 |
+| 4501 | [4501.pdf](/tax-maps/pdf/4501.pdf) | [4501.jpg](/tax-maps/jpg/4501.jpg) | [4501.jpg.aux.xml](/tax-maps/jpg/4501.jpg.aux.xml) | 2023.05.05 |
+| 4512 | [4512.pdf](/tax-maps/pdf/4512.pdf) | [4512.jpg](/tax-maps/jpg/4512.jpg) | [4512.jpg.aux.xml](/tax-maps/jpg/4512.jpg.aux.xml) | 2023.05.05 |
 | 5432 | [5432.pdf](/tax-maps/pdf/5432.pdf) | [5432.jpg](/tax-maps/jpg/5432.jpg) | [5432.jpg.aux.xml](/tax-maps/jpg/5432.jpg.aux.xml) | n/a |
 | 5433 | [5433.pdf](/tax-maps/pdf/5433.pdf) | [5433.jpg](/tax-maps/jpg/5433.jpg) | [5433.jpg.aux.xml](/tax-maps/jpg/5433.jpg.aux.xml) | n/a |
 | 5433CD | [5433CD.pdf](/tax-maps/pdf/5433CD.pdf) | [5433CD.jpg](/tax-maps/jpg/5433CD.jpg) | [5433CD.jpg.aux.xml](/tax-maps/jpg/5433CD.jpg.aux.xml) | n/a |
@@ -68,10 +71,6 @@ Prerequisite: [GhostScript](https://ghostscript.com/download.html) installed wit
 ### Use in ArcGIS Pro
 
 Copy or add `tax-maps/jpg` directory to a Pro project and add images to a map.
-
-### Tax Map Boundaries
-
-The boundaries are included in the zipped FGDB `TaxMapBoundaries.gdb.zip` or `TaxMapBoundaries.geojson`.
 
 ### Updates and Versioning
 
