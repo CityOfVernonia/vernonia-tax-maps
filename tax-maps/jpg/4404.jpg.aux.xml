@@ -24,32 +24,24 @@
         <LatestWKID>6557</LatestWKID>
       </SpatialReference>
       <SourceGCPs xsi:type="typens:ArrayOfDouble">
-        <Double>9367.4904607845474</Double>
-        <Double>-10146.559794667197</Double>
-        <Double>1317.5235637530859</Double>
-        <Double>-9118.4680609541283</Double>
-        <Double>7634.0678869949925</Double>
-        <Double>-912.8430395796895</Double>
-        <Double>3280.8493623899922</Double>
-        <Double>-6510.6335244984366</Double>
-        <Double>10569.953227971671</Double>
-        <Double>-6271.9531491189264</Double>
-        <Double>9397.8726457546545</Double>
-        <Double>-4905.4513460183516</Double>
+        <Double>9204.5518755008325</Double>
+        <Double>-2612.0222704557664</Double>
+        <Double>1317.4777524760789</Double>
+        <Double>-9118.4356344764146</Double>
+        <Double>9367.4937186350217</Double>
+        <Double>-10146.444492137525</Double>
+        <Double>897.84362843803683</Double>
+        <Double>-1120.6265744953416</Double>
       </SourceGCPs>
       <TargetGCPs xsi:type="typens:ArrayOfDouble">
-        <Double>630691.89132408029</Double>
-        <Double>1505753.6567396023</Double>
-        <Double>625324.07586791599</Double>
-        <Double>1506435.3641855691</Double>
-        <Double>629533.45695417433</Double>
-        <Double>1511909.7542242187</Double>
-        <Double>626631.96167468186</Double>
-        <Double>1508176.0889632087</Double>
-        <Double>631493.20562536945</Double>
-        <Double>1508338.3450883483</Double>
-        <Double>630711.10071747832</Double>
-        <Double>1509248.3102777186</Double>
+        <Double>630580.94336317747</Double>
+        <Double>1510778.2317494657</Double>
+        <Double>625324.07587540778</Double>
+        <Double>1506435.3644136332</Double>
+        <Double>630691.89156033867</Double>
+        <Double>1505753.6569602326</Double>
+        <Double>625041.34024978615</Double>
+        <Double>1511769.0989365461</Double>
       </TargetGCPs>
       <Name />
     </GeodataXform>
