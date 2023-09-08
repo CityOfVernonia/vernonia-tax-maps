@@ -24,8 +24,8 @@ Georeferenced tax maps can be viewed overlaid with imagery and and other layers 
 | --- | :---: | :---: | :---: | :---: |
 | 4403 | [4403.pdf](/tax-maps/pdf/4403.pdf) | [4403.jpg](/tax-maps/jpg/4403.jpg) | [4403.jpg.aux.xml](/tax-maps/jpg/4403.jpg.aux.xml) | 2023.06.05 |
 | 4403BA | [4403BA.pdf](/tax-maps/pdf/4403BA.pdf) | [4403BA.jpg](/tax-maps/jpg/4403BA.jpg) | [4403BA.jpg.aux.xml](/tax-maps/jpg/4403BA.jpg.aux.xml) | 2023.05.03 |
-| 4403BB | [4403BB.pdf](/tax-maps/pdf/4403BB.pdf) | [4403BB.jpg](/tax-maps/jpg/4403BB.jpg) | [4403BB.jpg.aux.xml](/tax-maps/jpg/4403BB.jpg.aux.xml) | n/a |
-| 4403BC | [4403BC.pdf](/tax-maps/pdf/4403BC.pdf) | [4403BC.jpg](/tax-maps/jpg/4403BC.jpg) | [4403BC.jpg.aux.xml](/tax-maps/jpg/4403BC.jpg.aux.xml) | n/a |
+| 4403BB | [4403BB.pdf](/tax-maps/pdf/4403BB.pdf) | [4403BB.jpg](/tax-maps/jpg/4403BB.jpg) | [4403BB.jpg.aux.xml](/tax-maps/jpg/4403BB.jpg.aux.xml) | 2023.09.08 |
+| 4403BC | [4403BC.pdf](/tax-maps/pdf/4403BC.pdf) | [4403BC.jpg](/tax-maps/jpg/4403BC.jpg) | [4403BC.jpg.aux.xml](/tax-maps/jpg/4403BC.jpg.aux.xml) | 2023.09.08 |
 | 4403BD | [4403BD.pdf](/tax-maps/pdf/4403BD.pdf) | [4403BD.jpg](/tax-maps/jpg/4403BD.jpg) | [4403BD.jpg.aux.xml](/tax-maps/jpg/4403BD.jpg.aux.xml) | n/a |
 | 4403CA | [4403CA.pdf](/tax-maps/pdf/4403CA.pdf) | [4403CA.jpg](/tax-maps/jpg/4403CA.jpg) | [4403CA.jpg.aux.xml](/tax-maps/jpg/4403CA.jpg.aux.xml) | n/a |
 | 4404| [4404.pdf](/tax-maps/pdf/4404.pdf) | [4404.jpg](/tax-maps/jpg/4404.jpg) | [4404.jpg.aux.xml](/tax-maps/jpg/4404.jpg.aux.xml) | 2023.06.05 |
