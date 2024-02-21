@@ -1,3 +1,5 @@
+Vernonia area tax maps are now part of https://github.com/CityOfVernonia/geospatial-data.
+
 # vernonia-tax-maps
 
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/CityOfVernonia/vernonia-tax-maps?color=success&style=flat-square)
